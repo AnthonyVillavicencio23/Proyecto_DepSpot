@@ -2,7 +2,8 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 
-String apiKey = "XXX";
+String apiKey =
+    "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";
 
 Future sendTextCompletionRequest(String message) async {
   const String baseUrl = "https://api.openai.com/v1/chat/completions";
